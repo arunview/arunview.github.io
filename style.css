@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,800');
+
 .header {
   display: block;
   width: 100%;
@@ -7,4 +9,13 @@
   background: -webkit-linear-gradient(-45deg, #00695c 1%,#009688 100%);
   background: linear-gradient(135deg, #00695c 1%,#009688 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00695c', endColorstr='#009688',GradientType=1 );
+}
+
+.header img {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
 }
