@@ -13,9 +13,91 @@
 
 .header img {
   width: 100%;
-  max-width: 1000px;
+  max-width: 700px;
   height: auto;
   display: block;
   margin: 0 auto;
   padding: 0;
+}
+
+.intro {
+  padding: 80px 20px;
+  display: block;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  line-height: 44px;
+  color: #009688;
+  margin: 0 0 20px 0;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  line-height: 38px;
+  color: #009688;
+  margin: 0 0 20px 0;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #121212;
+  margin: 0 0 15px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #009688;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 800;
+  margin: 0 0 15px 0;
+}
+
+.services {
+  padding: 80px 20px;
+  display: block;
+  text-align: center;
+}
+
+.container {
+  display: block;
+  overflow: hidden;
+}
+
+.service {
+  display: block;
+  float: left;
+  width: 25%;
+  width: calc(33.33% - 40px);
+  margin: 20px;
+}
+
+.name {
+  display: block;
+  width: 100%;
+  color: #009688;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 800;
+  margin: 0 0 10px 0;
+}
+
+.description {
+  display: block;
+  width: 100%;
+  color: #121212;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+  margin: 0 0 10px 0;
 }
