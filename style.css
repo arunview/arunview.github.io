@@ -92,6 +92,12 @@ a {
   overflow: hidden;
 }
 
+.container {
+  display: block;
+  overflow: hidden;
+  clear: both;
+}
+
 .service {
   display: block;
   float: left;
@@ -148,14 +154,25 @@ a {
   margin-bottom: 15px;
 }
 
-.footer {
+ {
   text-align: center;
   background-color: #121212;
   color: #ffffff;
   padding: 20px;
 }
 
-p {
+.footer p {
   color: #ffffff;
   font-size: 14px;
+  margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .service {
+    display: block;
+    float: left;
+    width: 25%;
+    width: calc(50% - 40px);
+    margin: 20px;
+  }
 }
