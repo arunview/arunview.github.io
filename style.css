@@ -106,3 +106,23 @@ a {
   font-weight: 500;
   margin: 0 0 10px 0;
 }
+
+.contact {
+  display: block;
+  overflow: auto;
+  width: 100%;
+  background: #00695c;
+  background: -moz-linear-gradient(-45deg, #00695c 1%, #009688 100%);
+  background: -webkit-linear-gradient(-45deg, #00695c 1%,#009688 100%);
+  background: linear-gradient(135deg, #00695c 1%,#009688 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00695c', endColorstr='#009688',GradientType=1 );
+}
+
+.contact p {
+  color: #ffffff;
+}
+
+.contact a {
+  color: #ffffff;
+  font-weight: 800;
+}
