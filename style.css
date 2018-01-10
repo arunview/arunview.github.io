@@ -110,12 +110,14 @@ a {
 .contact {
   display: block;
   overflow: auto;
+  padding: 50px 20px;
   width: 100%;
   background: #00695c;
   background: -moz-linear-gradient(-45deg, #00695c 1%, #009688 100%);
   background: -webkit-linear-gradient(-45deg, #00695c 1%,#009688 100%);
   background: linear-gradient(135deg, #00695c 1%,#009688 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00695c', endColorstr='#009688',GradientType=1 );
+  text-align: center;
 }
 
 .contact p {
