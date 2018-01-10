@@ -92,7 +92,7 @@ a {
   overflow: hidden;
 }
 
-.container {
+.row {
   display: block;
   overflow: hidden;
   clear: both;
