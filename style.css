@@ -4,6 +4,7 @@
   display: block;
   overflow: auto;
   width: 100%;
+  text-align: center;
   background: #00695c;
   background: -moz-linear-gradient(-45deg, #00695c 1%, #009688 100%);
   background: -webkit-linear-gradient(-45deg, #00695c 1%,#009688 100%);
@@ -26,7 +27,8 @@
   display: block;
   font-size: 24px;
   line-height: 30px;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
+  text-align: center;
 }
 
 .intro {
