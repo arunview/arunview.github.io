@@ -154,7 +154,7 @@ a {
   margin-bottom: 15px;
 }
 
- {
+ .footer {
   text-align: center;
   background-color: #121212;
   color: #ffffff;
@@ -172,7 +172,7 @@ a {
     display: block;
     float: left;
     width: 25%;
-    width: calc(50% - 40px);
+    width: calc(100% - 40px);
     margin: 20px;
   }
 }
