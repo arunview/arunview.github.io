@@ -5,6 +5,7 @@
   overflow: auto;
   width: 100%;
   text-align: center;
+  padding-bottom: 40px;
   background: #00695c;
   background: -moz-linear-gradient(-45deg, #00695c 1%, #009688 100%);
   background: -webkit-linear-gradient(-45deg, #00695c 1%,#009688 100%);
@@ -17,7 +18,7 @@
   max-width: 700px;
   height: auto;
   display: block;
-  margin: 50px auto;
+  margin: 50px auto 0;
   padding: 0;
 }
 
